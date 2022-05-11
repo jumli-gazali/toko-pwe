@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class ControllerKetujuh extends Controller
 {
-    //
+    public function index()
+    {
+        echo 'Ini 7';
+    }
 }
